@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Form</title>
+</head>
+<body>
+<h2>Registration Form</h2>
+    <form action="RegisterServlet" method="post">
+        <label>First Name:</label>
+        <input type="text" name="firstName" required><br><br>
+
+        <label>Last Name:</label>
+        <input type="text" name="lastName" required><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password" required><br><br>
+
+        <label>Mobile Number:</label>
+        <input type="text" name="mobile" required><br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob" required><br><br>
+
+        <label>Graduation Passing Year:</label>
+        <input type="text" name="passingYear" required><br><br>
+
+        <label>Specialization:</label>
+        <input type="text" name="specialization" required><br><br>
+
+        <label>10th Percent:</label>
+        <input type="text" name="percent10" required><br><br>
+
+        <label>12th Percent:</label>
+        <input type="text" name="percent12" required><br><br>
+
+        <label>Graduation Percent:</label>
+        <input type="text" name="graduationPercent" required><br><br>
+
+        <label>Fresher or Experienced:</label>
+        <select name="experience">
+            <option value="Fresher">Fresher</option>
+            <option value="Experienced">Experienced</option>
+        </select><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male" required> Male
+        <input type="radio" name="gender" value="Female" required> Female<br><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
